@@ -6,8 +6,8 @@ public class RobotTriangleCircle {
 
     public static void main(String[] args) {
 
-        Robot a = new Robot();
-        a.hide();
+        Robot a = new Robot("batman");
+        // a.hide();
         a.move(10);
         a.penDown();
         a.setPenWidth(10000);
@@ -21,7 +21,7 @@ public class RobotTriangleCircle {
         a.setRandomPenColor();
         a.move(93);
         a.turn(-40);
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 60; i++) {
             a.setRandomPenColor();
             a.move(90);
             a.turn(120);
@@ -31,6 +31,10 @@ public class RobotTriangleCircle {
             a.setRandomPenColor();
             a.move(93);
             a.turn(-1);
+
         }
+        a.penUp();
+        a.move(1000);
+
     }
 }
