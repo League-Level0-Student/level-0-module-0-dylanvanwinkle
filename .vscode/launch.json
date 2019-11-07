@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample1<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample1",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample2<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample2",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample3<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample3",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample4<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample4",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample5<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample5",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample6<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample6",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample7<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample7",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample8<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample8",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample9<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample9",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyJavaProgram<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_00_welcome.MyJavaProgram",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Welcome<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_00_welcome.Welcome",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotSquare<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_01_robot_square.RobotSquare",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Robotgrifferi<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_02_robot_graffiti.Robotgrifferi",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoringZobie<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_03_morning_zombie.MoringZobie",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KnockKnock<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_04_knock_knock.KnockKnock",
+            "projectName": "Level0-Module0"
+        }
+    ]
+}
