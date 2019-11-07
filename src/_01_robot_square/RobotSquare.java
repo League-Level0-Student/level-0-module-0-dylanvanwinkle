@@ -4,6 +4,8 @@ package _01_robot_square;
  *    Level 0
  */
 
+import java.awt.Color;
+
 import org.jointheleague.graphical.robot.Robot;
 
 // This recipe draws a square using the Robot
@@ -12,22 +14,29 @@ public class RobotSquare {
     public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
-
+    	Robot b = new Robot();
 
         // 3. Put the robot's pen down
+b.penDown();
 
+
+b.setPenColor(Color.blue);
 
         // 6. Make the robot move as fast as possible
-
+b.setSpeed(100);
 
         // 5. Do everything below here 4 times
+for (int i = 0; i < 4; i++) {
+	
 
 
         //         2. Move your robot 200 pixels
-
+b.move(200);
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
+b.turn(90);
 
-
-    }
+    
+}
+}
 }
