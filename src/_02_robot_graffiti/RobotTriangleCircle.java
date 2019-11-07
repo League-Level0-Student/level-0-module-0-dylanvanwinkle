@@ -2,7 +2,7 @@ package _02_robot_graffiti;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class RobotStar {
+public class RobotTriangleCircle {
 
     public static void main(String[] args) {
 
@@ -14,16 +14,23 @@ public class RobotStar {
         a.setSpeed(100);
         a.setRandomPenColor();
         a.move(90);
-        a.setRandomPenColor();
         a.turn(-120);
         a.setRandomPenColor();
         a.move(100);
-        a.setRandomPenColor();
         a.turn(-125);
         a.setRandomPenColor();
         a.move(93);
-        a.setRandomPenColor();
-        a.turn(-120);
-
+        a.turn(-40);
+        for (int i = 0; i < 50; i++) {
+            a.setRandomPenColor();
+            a.move(90);
+            a.turn(120);
+            a.setRandomPenColor();
+            a.move(100);
+            a.turn(125);
+            a.setRandomPenColor();
+            a.move(93);
+            a.turn(-1);
+        }
     }
 }
