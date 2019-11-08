@@ -6,15 +6,14 @@ public class Hi {
 public static void main(String[] args) {
     boolean C = false;
     String A = ("");
-    String B = ("");
-    JOptionPane.showMessageDialog(null, "Hi.");
+    String D = ("");
+   D = JOptionPane.showInputDialog("Hi, what's your name.");
     A = JOptionPane.showInputDialog("How's your day");
     if (A.equalsIgnoreCase("good")) {
-        JOptionPane.showMessageDialog(null, "Great news.");
+        JOptionPane.showMessageDialog(null, "Great news " +D+ ".");
         C = true;
     } else {
-       B = JOptionPane.showInputDialog(null, "Sorry for you what happed.");
-        JOptionPane.showMessageDialog(null, "I am sorry about " +B );
+        JOptionPane.showMessageDialog(null, "I am sorry for you " +D+ "." );
 }
 
 
